@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="port.css">
+  <title>Portfólio</title>
+</head>
+<body>
+  
+  <nav>
+    
+  <img id="logo" src= "Sauimbo_20240420_091712_0000.png" alt="Logo">
+  
+  <ul>
+    <li><a href="#Home">Início</a></li>
+    <li><a href="#About">Sobre</a></li>
+    <li><a href="#Projects">Projectos</a></li>
+    <li><a href="#Contacts">Contactos</a></li>
+  </ul>
+  </nav>
+
+
+  <main> 
+  <section id="Home">
+    <h1 id="intro">Olá!👋 Meu nome é Albertina Sauimbo!</h1>
+    <p id="intro1">Desenvolvedora Front-end e UI Designer.</p>
+    
+      <img src="IMG_20230901_060438_HDR.jpg" alt="Minha imagem">
+    </section>
+    
+    <section id="About">
+       <h1 id="h1"> Sobre mim e algumas Skills</h1>
+      <p>Chamo-me Albertina Sauimbo, e sou Desenvolvedora Front-end e designer UI.</p>
+      <p>Estou á caminho do 4⁰ e último ano do Médio ,cursando Técnicas de Informática na Instituição designada por IPIL, também mais conhecida como Makarenco.</p>
+      <p>Estou trabalhando para me tornar a Dev profissional e bastante competente. No desenvolver de meus projetos, me esforço com criatividade e competência a fim de satisfazer as necessidades dos usuários.</p>
+      
+      <button type="submit" class="button" onclick="Visualizar()">Ver Skills</button>
+      
+       <div class="Bordas hide">
+         
+         <div class="port">
+         <h3>Tenho noção em linguagens como: HTML,CSS, JAVASCRIPT e C.</h3>
+         </div>
+         </div>
+         
+         <div class="Bordas hide">
+         <div class="port port1">
+           <h3>Trabalho com mais frequência em Projetos Comerciais.</h3>
+         </div>
+         </div>
+         
+         <div class="Bordas hide">
+         <div class="port port2">
+           <h3>Estou explorando o mundo do UI/UX Design.</h3>
+         </div>
+         </div>
+    </section>
+    
+    <section id="Projects">
+      <h1 id="h1">Projectos</h1>
+      <div class="Geral">
+        <div class="box">
+          <h2>Em execução…</h2>
+        </div>
+        
+        <div class="box box1">
+          <h2>Em execução…</h2>
+        </div>
+        
+        <div class="box box2">
+          <h2>Em execução…</h2>
+        </div>
+        
+        <div class="box box3">
+          <h2>Em execução…</h2>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  
+
+  <footer id="Contacts">
+    <h2>Contactos</h2>
+    <p>email: failasauimbo@gmail.com</p>
+    <p>Telefone: (+244) 934 15 6335</p>
+    <p>Instagram: Albertina Faila</p>
+  </footer>
+  
+  <script>
+  var Bordas = document.querySelector('.Bordas');
+  button.addEventListener('click',Visualizar);
+  
+    function Visualizar(){
+      
+      Bordas.classList.remove('hide');
+    }
+  </script>
+  
+</body>
+</html>

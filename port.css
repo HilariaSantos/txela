@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+ body{
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ section{
+   min-height: 100vh;
+   padding-top: 3rem;
+ }
+ 
+ #Home{
+   background-color: pink;
+   display: flex;
+ }
+ 
+ #intro{
+   font-size: 35px;
+ }
+ #intro1{
+   font-size: 25px;
+ }
+ 
+ #About{
+   background-color: snow;
+   padding: 5px;
+ }
+ 
+ .port{
+   background-color: blue;
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   text-align: center;
+ }
+ 
+ .port1{
+   background-color: salmon;
+ }
+ 
+ .port2{
+   background-color: tan;
+ }
+ 
+ .Bordas{
+   background-color: white;
+   border-radius: 50%;
+   padding: 5px;
+   margin: 10px;
+ }
+ h3{
+   padding: 40px;
+ }
+ 
+#Projects{
+  background-color: lightpink;
+}
+.Geral{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+ .box{
+   background-color: sienna;
+   color: black;
+   width: 180px;
+   height: 180px;
+   border-radius: 100px;
+ }
+ .hide{
+   display: none;
+ }
+ 
+ .box1{
+   background-color: salmon
+ }
+ 
+ .box2{
+   background-color: yellowgreen;
+   margin: 3px;
+ }
+ 
+ box3{
+   background-color: sandybrown;
+   margin: 3px;
+ }
+ 
+ h1{
+   text-align: center;
+   padding: 5px;
+ }
+ 
+ h2{
+   text-align: center;
+   padding: 50px;
+ }
+ #h1{
+   text-align: center;
+   font-size: 30px
+ }
+ 
+ nav{
+   background-color: lightpink;
+   display: flex;
+   gap: 2rem;
+   position: fixed;
+   height: 3rem;
+   width: 100%;
+ }
+ 
+ ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   height: 100%;
+   margin: 0;
+   padding: 10px;
+ }
+ 
+ li{
+   margin-right: 12px;
+ }
+ 
+ img{
+   height: 60px;
+   width: 70px;
+   border-radius: 50%;
+ }
+ 
+ #logo{
+   height: 40px;
+   width: 50px;
+ }
+ 
+ a{
+   color: black;
+ }
+ a:hover{
+   color: hotpink;
+   transition: 3s;
+ }
+ 
+ button{
+   text-align: center;
+   height: 60px;
+   width: 150px;
+   background-color: salmon;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+ }
+ button:hover{
+   box-shadow: 0 0 5px 5px;
+ }
+ 
+ footer{
+   background-color: black;
+   color: white;
+   width: 280px;
+ }
